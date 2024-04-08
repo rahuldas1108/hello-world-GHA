@@ -5,7 +5,7 @@ on:
 
 jobs:
   job1:
-    uses: ./.github/workflows/called-workflow.yml@main
+    uses: ./.github/workflows/called-workflow.yml
 
   job2:
     runs-on: ubuntu-latest
