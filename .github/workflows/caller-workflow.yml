@@ -5,7 +5,7 @@ on:
 
 jobs:
   job1:
-    uses: rahuldas1108/hello-world-GHA/.github/workflows/called-workflow.yml@v3
+    uses: ./.github/workflows/called-workflow.yml@main
 
   job2:
     runs-on: ubuntu-latest
